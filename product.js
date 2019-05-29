@@ -6,7 +6,7 @@ router.get('/product', (request, response) => {
 });
 
 router.post('/product', (request, response) => {
-    console.log('list of products');
+    console.log('add products');
 });
 
 

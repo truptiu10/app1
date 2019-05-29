@@ -6,7 +6,7 @@ router.get('/category', (request, response) => {
 });
 
 router.post('/category', (request, response) => {
-    console.log('list of category');
+    console.log('category created');
 });
 
 
