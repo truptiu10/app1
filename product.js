@@ -5,6 +5,9 @@ router.get('/product', (request, response) => {
     console.log('list of products');
 });
 
+router.post('/product', (request, response) => {
+    console.log('list of products');
+});
 
 
 module.exports = router;
