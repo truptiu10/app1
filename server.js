@@ -4,6 +4,7 @@ const productRouter = require('./product');
 const categoryRouter = require('./category');
 
 const app = express();
+const app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
